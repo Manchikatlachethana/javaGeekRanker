@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class GFG {
+class ReversePattern {
 	public static void main (String[] args) {
 		System.out.println("enter input");
 	    Scanner sc=new Scanner(System.in);
