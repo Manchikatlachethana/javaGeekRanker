@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 class GFG {
 	public static void main (String[] args) {
-	    //System.out.print("AJSBDSHCKJD");
 	    Scanner sc=new Scanner(System.in);
 	    int n=sc.nextInt();
 	    for(int i=1;i<=n;i++)
@@ -14,8 +13,6 @@ class GFG {
 	            System.out.print("#"+" ");
 	        }
 	        System.out.println();
-	    }
-	    
-		
+	    }	
 	}
 }
