@@ -1,8 +1,8 @@
-// code to reverse the given numbers in an array, by taking some test cases.
+// code to reverse the given digits , by taking some test cases.
 
 import java.lang.*;
 import java.io.*;
-class ReverseArray
+class ReverseDigits
  {
 	public static void main (String[] args)
 	 {
