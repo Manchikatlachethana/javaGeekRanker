@@ -1,4 +1,9 @@
-
+/*
+take input String of any length and print the even index characters + space+odd index characters.
+Example:
+ Input:   Github
+ Output:Gtu ihb
+ */
 import java.io.*;
 import java.util.*;
 
