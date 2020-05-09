@@ -3,6 +3,7 @@ take input String of any length and print the even index characters + space+odd 
 Example:
  Input:   Github
  Output:Gtu ihb
+ this works for only even string length.
  */
 import java.io.*;
 import java.util.*;
