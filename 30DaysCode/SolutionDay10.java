@@ -1,3 +1,4 @@
+// code to count the consecutive number of 1's by converting Decimal number to binary number.
 package git;
 import java.util.*;
 
