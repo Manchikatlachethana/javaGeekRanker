@@ -29,3 +29,11 @@ public class Strings1 {
 
 }
                                                                                                                                    
+/*
+key is hi value is 3
+key is hi value is 3
+key is hello value is 2
+key is bye value is 1
+key is hello value is 2
+key is hi value is 3
+*/
