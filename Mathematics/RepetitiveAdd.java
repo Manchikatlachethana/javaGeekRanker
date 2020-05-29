@@ -1,3 +1,11 @@
+/* 
+prob: addiing  digits repeatedly until its single digit!
+if we conisder 98, we get 9+8  = 17 after first addition. 
+Then we get 1+7 = 8. 
+We stop at this point because we are left with one digit.
+
+*/
+
 import java.lang.*;
 import java.io.*;
 class RepetitiveAdd
@@ -26,3 +34,12 @@ class RepetitiveAdd
 	 
 	 }
 }
+
+/* sample input
+2
+1
+98
+sample output
+1
+8
+*/
