@@ -23,5 +23,12 @@ class ConvertToFive {
         
  }
  }
- 
+ /* sample input
+ 2
+1004
+121
+sample output
+1554
+121
+*/
  
