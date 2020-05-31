@@ -1,4 +1,9 @@
-// code to find mean
+/* code to find mean 
+The first line of input contains an integer T denoting the number of test cases.
+For each test case there will be two lines.
+The first line contains the integer N denoting the number of students,
+second line contains the N space seperated integrers denoting the marks of all the students.
+*/
 
 import java.util.*;
 import java.lang.*;
@@ -27,3 +32,18 @@ class Mean
         }
 	 }
 }
+
+
+/* sample input:
+3
+4
+56 67 30 79
+4
+78 89 67 76
+5
+90 100 78 89 67
+sample ouput:
+58
+77
+84
+*/
