@@ -1,3 +1,10 @@
+/*
+prob: find  the  compund interest for given principal amount P , 
+time T(in years), compounds N times in a year at rate R. 
+Calculate floor of future value of given principal amount.
+First line contains an integer, the number of test cases 'T'.  
+Each test case should contain three values P, T, N, R.
+*/
 import java.lang.*;
 import java.io.*;
 
@@ -23,4 +30,14 @@ class CompoundInterest
 	  }
 	 }
  }	 
-	               
+
+/* sample Input:
+1
+1000
+2
+2
+10
+
+sample Output:
+1215     //instead of 1215.51
+*/
