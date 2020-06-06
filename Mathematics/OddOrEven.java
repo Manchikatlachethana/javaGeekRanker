@@ -1,3 +1,11 @@
+/*
+prob:Given a positive integer determine whether it is odd or even.
+Input:
+First line contains an integer T, the number of test cases. Each test case contains a positive integer N.
+
+Output:
+In each seperate line print "odd" if odd and "even" if even.
+*/
 import java.lang.*;
 import java.io.*;
 class OddOrEven
@@ -18,3 +26,12 @@ class OddOrEven
 	 }
 	 }
 }
+
+/*
+sample Input:
+1
+23
+
+sample Output:
+odd
+*/
