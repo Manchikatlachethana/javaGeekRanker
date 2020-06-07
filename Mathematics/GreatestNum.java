@@ -1,3 +1,11 @@
+/*
+prob:find the greatest of the three numbers. 
+Input:
+First line contains an integer, the number of test cases 'T'. 
+Each test case should contain three positive numbers a,b and c.
+Output:
+Print maximum of three numbers
+*/
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -26,3 +34,11 @@ class GreatestNum
 	    }
 	 }
 }
+
+/*
+SampleInput:
+1
+10 3 2
+SampleOutput:
+10
+*/
