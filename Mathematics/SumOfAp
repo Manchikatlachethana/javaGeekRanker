@@ -1,3 +1,16 @@
+/*
+prob:
+A series with same common difference is known as arithmetic series. 
+The first term of series is 'a' and common difference is d.
+The series looks like a, a + d, a + 2d, a + 3d, . . . .
+Find the sum of series.
+Input:
+The first line consists of an integer T i.e number of test cases.
+The first line and only line of each test case consists of three values a,d,n.
+Output:
+Print the sum of the series. With two decimal places.
+*/
+
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -5,7 +18,6 @@ class SumOfAp
  {
 	public static void main (String[] args)
 	 {
-	 //code
 	 Scanner sc=new Scanner(System.in);
 	 int t=sc.nextInt();
 	 for(int i=0;i<t;i++){
@@ -19,3 +31,14 @@ class SumOfAp
 	 }
 	 }
 }
+
+/*
+Input:
+2
+1 2 4
+2.5 1.5 20
+
+Output:
+16.00
+335.00
+*/
