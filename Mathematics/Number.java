@@ -1,5 +1,7 @@
-/* code to print the numbers and total count of numbers 
-which are divisible by "n" valued number with in the given range..*/
+/*
+prob:code to print the numbers and total count of numbers 
+which are divisible by "n" valued number with in the given range..
+*/
 
 package git;
 
