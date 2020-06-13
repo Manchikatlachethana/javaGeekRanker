@@ -1,3 +1,6 @@
+/*
+prob:Calculate the area of rectangle
+*/
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -15,3 +18,9 @@ class Rectangle
 	 }
 	 }
 }
+/*
+1
+32 32 
+Output:
+1024 
+*/
