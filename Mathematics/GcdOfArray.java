@@ -1,3 +1,14 @@
+/*
+prob:Given an array of N positive integers. 
+find the GCD of all numbers of the array.
+
+Input:
+First line of input contains number of test cases T.
+First line of test case contains a positive integer N, size of the array. Next line contains the array elements.
+
+Output:
+For each testcase, print the GCD of array elements.
+*/
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -35,3 +46,13 @@ class GcdOfArray
 	     return res;
 	 }
 }
+
+/*
+SampleInput:
+1
+2
+5 10
+
+SampleOutput:
+5
+*/
