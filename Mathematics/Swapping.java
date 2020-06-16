@@ -1,6 +1,8 @@
 /*
 Swap given two numbers and print them. (Try to do it without a temporary variable.)
-considering the number of test cases 'T'. Each test case should contain two positive numbers a and b.
+considering the number of test cases 'T'.
+Each test case should contain two positive numbers a and b.
+*/
 
 import java.lang.*;
 import java.io.*;
