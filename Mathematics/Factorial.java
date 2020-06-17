@@ -1,5 +1,5 @@
 /*
-code to print facoial of given number.
+prob: print facoial of given number.
 considering some test cases "t".
 */
 
