@@ -13,11 +13,11 @@ public class Calculator {
 		
 	Scanner sc=new Scanner(System.in);
 	System.out.println("choose the arithematic operations which are to be performed");
-	System.out.println("1.addition of wo numbers");
-	System.out.println("2.subtraction of wo numbers");
-	System.out.println("3.multiplicaion of wo numbers");
-	System.out.println("4.division of wo numbers");
-	System.out.println("5.modulo of wo numbers");
+	System.out.println("1.addition of two numbers");
+	System.out.println("2.subtraction of two numbers");
+	System.out.println("3.multiplicaion of two numbers");
+	System.out.println("4.division of two numbers");
+	System.out.println("5.modulo of two numbers");
 	System.out.println("enter choice (from 1 to 5):");
 	int choice=sc.nextInt();
 	System.out.print("enter a value:");
@@ -49,11 +49,11 @@ public class Calculator {
 
 /* sample input:
 choose the arithematic operations which are to be performed
-1.addition of wo numbers
-2.subtraction of wo numbers
-3.multiplicaion of wo numbers
-4.division of wo numbers
-5.modulo of wo numbers
+1.addition of two numbers
+2.subtraction of two numbers
+3.multiplicaion of two numbers
+4.division of two numbers
+5.modulo of two numbers
 enter choice (from 1 to 5):
 4
 enter a value:1
