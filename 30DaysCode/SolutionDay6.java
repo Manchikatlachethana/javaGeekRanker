@@ -1,8 +1,8 @@
 /*
 Given a string, , of length  that is indexed from  0 to n-1 , 
 print its even-indexed and odd-indexed characters as  space-separated strings on a single line (see the Sample below for more detail).
-
-Note:  is considered to be an even index.
+Note: 0 is considered to be an even index.
+*/
 
 import java.io.*;
 import java.util.*;
