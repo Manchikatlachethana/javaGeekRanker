@@ -1,72 +1,56 @@
-package Git;
-
-import java.util.*;
+package com.practice;
 
 public class BinarySearch {
-
-    public  void  binarySearch(int arr[],int low,int high,int key)
-    {
-        if(low>high)
-        {
-            System.out.println("Element not found!!! ");
-            return;
+    //Time Complexity: O(logN)
+    //Auxiliary Space: O(1)
+    public int iterBinarySearch(int arr[],int x){
+        int left=0,right = arr.length-1;
+        while(left <= right){
+            int mid = left+(right-1)/2;
+            if(arr[mid] == x){
+                return mid;
+            }
+            if(arr[mid] > x){
+                left = mid+1;
+            }else{
+                right = mid-1;
+            }
         }
-        int mid=(low+high)/2;
-        int position=0;
-        if(arr[mid]==key)
-        {
-                position=mid+1;
-            System.out.println("Element found at " +position+ " position in the array ");
-            return;
-        }
-        else if(key>arr[mid])
-        {
-             binarySearch(arr,mid+1,high,key);
-        }
-        else{
-           binarySearch(arr,low,mid-1,key);
-        }
-
+        return -1;
     }
 
-    public static void main(String [] args)
-    {
-        Scanner sc=new Scanner(System.in);
-        BinarySearch bs=new BinarySearch();
-        System.out.println("Enter array size");
-        int size=sc.nextInt();
-        if(size<=0){
-            System.out.println("invalid size(size should be >0) ");
+    //Time Complexity: O(N*log N)
+    //Auxiliary Space: O(1)
+    public int recBinarySearch(int arr[],int left, int right, int x){
+        if(right >= 1){
+            int mid = left +(right-1)/2;
+            if(arr[mid] == x) return mid;
+            if(arr[mid] < x){
+                return recBinarySearch(arr,mid+1,right,x);
+            }else{
+                return recBinarySearch(arr,left, mid-1,x);
+            }
         }
-        System.out.println("Enter correct array size");
-        size=sc.nextInt();
-        int arr[]=new int[size];
-        System.out.println("Enter array elements: ");
-        for(int i=0;i<arr.length;i++){
-            arr[i]=sc.nextInt();
+        return -1;
+    }
+
+    public static void main(String[] args) {
+        int a[] = {1,5,6,7,8,9};
+        BinarySearch b = new BinarySearch();
+        int iter = b.iterBinarySearch(a,6);
+        if(iter == -1){
+            System.out.println("Not found!");
+        }else{
+            System.out.println("Found at index "+iter);
         }
 
-        System.out.println("Enter element to search: ");
-        int key=sc.nextInt();
-        int low=0;
-        int high=arr.length-1;
-        bs.binarySearch(arr,low,high,key);
+        int rec = b.recBinarySearch(a,0,a.length-1,3);
+        if(rec == -1){
+            System.out.println("Not found!");
+        }else{
+            System.out.println("Found at index "+rec);
+        }
 
 
     }
 }
-
-/sample output:
-
-Enter array size
-0
-invalid size(size should be >0) 
-Enter correct array size
-3
-Enter array elements: 
-1 2 3
-Enter element to search: 
-2
-Element found at 2 position in the array
-
-*/
