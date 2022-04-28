@@ -90,7 +90,7 @@ public class Llist {
         int count = 0;
         while(curr != null && count<position-1){
             curr = curr.next;
-            position++;
+            count++;
         }
         if(curr.next == null || curr.next.next == null){
             curr.next = null;
