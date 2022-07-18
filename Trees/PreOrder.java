@@ -7,16 +7,14 @@ public static void preOrder(Node root) {
         s.push(root);
         while(!s.isEmpty()){
             Node curr = s.pop();
-            l.add(curr.data);
-            if(curr.left != null){
-                s.push(curr.left);
-            }
+            l.add(curr.data);           
             if(curr.right != null){
                 s.push(curr.right);
             }
-            
+            if(curr.left != null){
+                s.push(curr.left);
+            }            
         }
-        Collections.reverse(l);
         for(int i:l){
             System.out.print(i+" ");
         }      
